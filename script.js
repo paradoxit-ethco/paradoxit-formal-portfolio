@@ -1,3 +1,22 @@
+const themeToggle = document.querySelector('.theme-toggle');
+const themeIcon = document.querySelector('.theme-icon');
+const themeLabel = document.querySelector('.theme-label');
+const storedTheme = localStorage.getItem('paradoxit-theme');
+const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+function setTheme(isDark, persist = true) {
+  document.body.classList.toggle('dark-mode', isDark);
+  themeToggle?.setAttribute('aria-pressed', String(isDark));
+  themeToggle?.setAttribute('aria-label', isDark ? 'Switch to light mode' : 'Switch to dark mode');
+  if (themeIcon) themeIcon.textContent = isDark ? '☀' : '☾';
+  if (themeLabel) themeLabel.textContent = isDark ? 'Light mode' : 'Dark mode';
+  document.querySelector('meta[name="theme-color"]')?.setAttribute('content', isDark ? '#171717' : '#f7f4ee');
+  if (persist) localStorage.setItem('paradoxit-theme', isDark ? 'dark' : 'light');
+}
+
+setTheme(storedTheme ? storedTheme === 'dark' : prefersDark, false);
+themeToggle?.addEventListener('click', () => setTheme(!document.body.classList.contains('dark-mode')));
+
 const menuToggle = document.querySelector('.menu-toggle');
 const navLinks = document.querySelector('.nav-links');
 
