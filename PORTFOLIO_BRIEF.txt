@@ -1,0 +1,170 @@
+PARADOXIT — Modern Software Developer Portfolio Website
+Project Overview
+
+Build a modern, premium, and formal personal portfolio website for Paradoxit, a software developer passionate about technology, coding, innovation, and creating digital experiences.
+
+The website should showcase my professional identity, technical skills, projects, career goals, and interest in Drake's music.
+
+The final result must look elegant, professional, responsive, and visually impressive.
+
+1. Brand Identity
+Brand name: Paradoxit
+Professional title: Software Developer
+Brand slogan: “Building Digital Experiences Through Code.”
+Primary language: English
+Design style: Modern, minimalist, formal, and premium.
+
+Create a simple, memorable text-based logo using “Paradoxit.” Use clean typography and a subtle accent color.
+
+2. Colors and Visual Design
+
+Use a beautiful light theme throughout the website.
+
+White: #FFFFFF
+Cream: #FAF8F3
+Light beige: #E8DDCE
+Charcoal: #222222
+Gray: #6B7280
+Light borders: #E5E7EB
+
+Use elegant fonts, spacious layouts, subtle shadows, rounded buttons, smooth transitions, and professional animations. Avoid excessive colors, clutter, and distracting effects.
+
+3. Navigation
+
+Create a responsive navigation bar featuring:
+
+Paradoxit logo
+Home
+About Me
+Skills
+Projects
+Drake
+Contact
+
+Include a functional mobile menu and smooth navigation between sections.
+
+4. Homepage Hero
+
+Display a small label:
+
+“SOFTWARE DEVELOPER”
+
+Main heading:
+
+“Building Digital Experiences Through Code.”
+
+Description:
+
+“I'm Paradoxit, a software developer passionate about technology, creative problem-solving, and building modern digital experiences. I turn ideas into practical, elegant, and user-friendly digital solutions.”
+
+Add two light-themed buttons:
+
+Explore My Projects
+Contact Me
+
+Include a modern developer-inspired visual with subtle abstract shapes, coding elements, or a professional illustration.
+
+5. About Paradoxit
+
+Create a professional About Me section that introduces Paradoxit as a software developer.
+
+Use this description:
+
+“I am Paradoxit, a software developer interested in technology, innovation, and creating useful digital solutions. I enjoy solving problems, exploring new technologies, and continuously improving my development skills. My goal is to build software that combines functionality, simplicity, and outstanding user experience.”
+
+Include editable fields for my location, background, education, experience, and career goals. Do not invent personal details.
+
+6. Technical Skills
+
+Create a modern grid of skill cards organized into:
+
+Programming Languages
+Frontend Development
+Backend Development
+Databases
+Tools and Technologies
+UI/UX Design
+
+Allow me to add my actual programming languages, frameworks, and tools. Example technologies may include JavaScript, Python, React, HTML, CSS, Git, and SQL, but do not claim I know them unless I confirm them.
+
+7. Projects Portfolio
+
+Create a visually attractive project gallery with responsive cards.
+
+Each card should include:
+
+Project title
+Project image or screenshot
+Short description
+Technologies used
+Live demo link
+Source code link
+
+Make the cards interactive with subtle hover animations. Use placeholders until I provide my real projects.
+
+8. Drake and Music
+
+Add a dedicated section titled:
+
+“Beyond Code: My Love for Music.”
+
+Include information about Drake, his music career, notable albums, popular songs, and how music can inspire creativity.
+
+Use tasteful, music-inspired visuals that match the light design. Include links to official music platforms and use images only when properly licensed or authorized.
+
+Clearly present this as my personal interest, not an official Drake website.
+
+9. Contact Paradoxit
+
+Create a professional contact form with:
+
+Full name
+Email address
+Message
+Send Message button
+
+Include customizable links for GitHub, LinkedIn, and other social media accounts.
+
+Display this message:
+
+“Have a project in mind, a collaboration opportunity, or simply want to connect? Let's build something great together.”
+
+Connect the form to a working backend or form service, validate the inputs, and show accurate submission feedback.
+
+10. Footer
+
+Include:
+
+Paradoxit logo
+Software Developer
+Navigation links
+Social media links
+Current-year copyright notice
+
+Display:
+
+“© [Current Year] Paradoxit. All rights reserved.”
+
+11. Technical Requirements
+Fully responsive on mobile, tablet, and desktop.
+Clean, maintainable, reusable code.
+Accessible navigation and keyboard support.
+SEO-friendly page titles and descriptions.
+Fast loading and optimized images.
+Functional links, buttons, and contact form.
+Smooth scrolling and subtle animations.
+Support for reduced-motion preferences.
+No broken links or fabricated achievements.
+Easy customization of all portfolio content.
+
+Use a modern framework such as React if appropriate, with a clean component structure and a suitable styling system.
+
+Final Goal
+
+Create a complete, working, modern portfolio website for Paradoxit — Software Developer.
+
+The website should establish Paradoxit as a professional technology-focused personal brand while expressing creativity and an interest in Drake's music.
+
+Prioritize excellent design, real functionality, responsive layouts, clear English, a consistent light color palette, and elegant light-colored buttons.
+
+Build the actual website, not merely a visual mockup. Make it ready for customization and future deployment.
