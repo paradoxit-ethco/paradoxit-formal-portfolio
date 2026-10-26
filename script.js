@@ -26,7 +26,7 @@ const languageStrings = {
     explore: 'Explore my projects <span>↗</span>', connect: "Let's connect <span>→</span>",
     aboutKicker: '01 / About me', aboutTitle: 'Curiosity is my<br /><i>starting point.</i>',
     skillsKicker: '02 / Capabilities', projectsKicker: '03 / Projects from GitHub',
-    repoTitle: 'My work,<br /><i>in public.</i>', repoDescription: 'Every non-archived public repository is listed here as a project. Private repositories are intentionally excluded from this public portfolio.',
+    repoTitle: 'My work,<br /><i>in public.</i>',
     contactKicker: '04 / Start a conversation', contactTitle: 'Have a project<br /><i>in mind?</i>',
     contactDescription: "Have a project in mind, a collaboration opportunity, or simply want to connect? Let's build something great together.",
     footerTagline: 'Software developer<br />building with intention.'
@@ -38,7 +38,7 @@ const languageStrings = {
     explore: 'ፕሮጀክቶቼን ይመልከቱ <span>↗</span>', connect: 'እንገናኝ <span>→</span>',
     aboutKicker: '01 / ስለ እኔ', aboutTitle: 'ጉጉት የእኔ<br /><i>መነሻ ነው።</i>',
     skillsKicker: '02 / ክህሎቶች', projectsKicker: '03 / ከ GitHub ፕሮጀክቶች',
-    repoTitle: 'ስራዬ፣<br /><i>በግልጽ።</i>', repoDescription: 'ሁሉም ያልተዘጉ የህዝብ GitHub ማከማቻዎች እዚህ እንደ ፕሮጀክቶች ተዘርዝረዋል። የግል ማከማቻዎች ከዚህ የህዝብ ፖርትፎሊዮ ተወግደዋል።',
+    repoTitle: 'ስራዬ፣<br /><i>በግልጽ።</i>',
     contactKicker: '04 / ውይይት እንጀምር', contactTitle: 'ፕሮጀክት<br /><i>አለዎት?</i>',
     contactDescription: 'ፕሮጀክት፣ የትብብር እድል ወይም በቀላሉ ለመገናኘት ፈልገዋል? አንድ ላይ ታላቅ ነገር እንገንባ።',
     footerTagline: 'የሶፍትዌር ገንቢ<br />በዓላማ የሚገነባ።'
@@ -61,7 +61,6 @@ function setLanguage(language, persist = true) {
     '.about-section h2': t.aboutTitle,
     '.section-tinted .section-kicker': t.projectsKicker,
     '.repo-directory h2': t.repoTitle,
-    '.repo-directory .section-heading p': t.repoDescription,
     '.contact-section .section-kicker': t.contactKicker,
     '.contact-section h2': t.contactTitle,
     '.contact-grid>div>p': t.contactDescription,
