@@ -22,7 +22,8 @@ Then open `http://localhost:4173`.
 ## Included
 
 - Responsive navigation with mobile menu
-- Hero, About, Skills, Projects, Drake/music interest, Contact, and Footer sections
+- Hero, About, Skills, GitHub-backed Projects, Contact, and Footer sections
 - Keyboard-friendly skip link and labeled form controls
 - Reduced visual clutter, responsive layouts, hover states, and smooth scrolling
 - Client-side contact validation with prepared email fallback
+- Public repositories are displayed as project cards; private repositories are intentionally excluded.
