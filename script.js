@@ -17,6 +17,28 @@ function setTheme(isDark, persist = true) {
 setTheme(storedTheme ? storedTheme === 'dark' : prefersDark, false);
 themeToggle?.addEventListener('click', () => setTheme(!document.body.classList.contains('dark-mode')));
 
+const filterButtons = document.querySelectorAll('.filter-button');
+const projectCards = document.querySelectorAll('.project-card[data-category]');
+const filterEmpty = document.querySelector('.filter-empty');
+
+filterButtons.forEach((button) => {
+  button.addEventListener('click', () => {
+    const filter = button.dataset.filter;
+    let visibleCount = 0;
+    filterButtons.forEach((item) => {
+      const active = item === button;
+      item.classList.toggle('active', active);
+      item.setAttribute('aria-pressed', String(active));
+    });
+    projectCards.forEach((card) => {
+      const visible = filter === 'all' || card.dataset.category === filter;
+      card.classList.toggle('is-hidden', !visible);
+      if (visible) visibleCount += 1;
+    });
+    if (filterEmpty) filterEmpty.hidden = visibleCount > 0;
+  });
+});
+
 const menuToggle = document.querySelector('.menu-toggle');
 const navLinks = document.querySelector('.nav-links');
 
